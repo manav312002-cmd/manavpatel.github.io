@@ -1,0 +1,2 @@
+source D:/smart_home_kit/build/bootloader/gdbinit/symbols
+source D:/smart_home_kit/build/bootloader/gdbinit/connect
