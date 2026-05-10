@@ -13,7 +13,7 @@ const projects = [
     description: "Designed and developed a custom Switched Mode Power Supply (SMPS) for a client requirement, focused on efficiency, compact size, and stable output for embedded system applications. High-efficiency SMPS design. Compact PCB layout for space-constrained applications. Stable output with low ripple and noise. Overcurrent and short-circuit protection. Optimized thermal performance.",
     tags: ["Half bridge topology", "Internal Soft-Start", "short-circuit protection"],
     image: "/images/SMPS_top.png", // Example: place 'smps.jpg' in the 'public/images/' folder
-    fileLink: "/files/Gerber.ZIP", // Example: place PDF in 'public/files/' folder
+    fileLink: "/files/SMPS_Gerber.zip", // Example: place PDF in 'public/files/' folder
     gallery: ["/images/SMPS_top.png", "/images/SMPS_bott.png", "/images/smps_sch.png"], // Add multiple image paths here
     github: null,
     live: null
@@ -24,7 +24,7 @@ const projects = [
     description: "A universal smart controller that communicates with your smart home device(s), giving: One central point of control for all appliances. Seamless operation without internet. Smart scene control + ambient feedback (light/temp/sound). Touch-sensitive zones (like a traditional gang plate). Gesture-based controls (swipe/hover for smart control).",
     tags: ["Wi-Fi 6", "Matter & Thread", "Zigbee", "mmWave", "RF"],
     image: "/images/SM_top.png", // Keep null to use the default placeholder
-    fileLink: "/files/SM_Gerber.ZIP",
+    fileLink: "/files/SM_Gerber.zip",
     gallery: ["/images/SM_top.png", "/images/SM_bott.png", "/images/SM_sch.png", "/images/SM_block.png",],
     github: "https://github.com/manav312002-cmd/smart-home-automation-esp32.git",
     live: null
