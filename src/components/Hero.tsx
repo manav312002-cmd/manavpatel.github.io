@@ -61,7 +61,7 @@ export default function Hero() {
               View Projects <ArrowRight size={18} />
             </a>
             <a
-              href="/files/Manav_Patel.PDF"
+              href="/files/Manav_Patel.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Manav_Patel_CV.pdf"
