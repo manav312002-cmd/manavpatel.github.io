@@ -12,9 +12,9 @@ const projects = [
     date: "Apr 2026 - Present",
     description: "A compact, retrofit-friendly touch dimmer switch built for the modern smart home. Designed as a drop-in replacement for standard switches — no neutral wire, no rewiring required. Onboard Wi-Fi 6 and BLE 5 ensure fast, reliable connectivity with Alexa and Google Home out of the box, while native Matter over Thread support opens the door to third-party platforms like SmartThings without any extra bridges or hubs.",
     tags: ["Manual touch control", "Wi-Fi 6", "BLE 5", "Matter", "Thread", "Alexa & Google Home", "SmartThings", "Retrofit install" ],
-    image: "/images/dimmer.png", // Example: place 'smps.jpg' in the 'public/images/' folder
-    fileLink: "/files/Dimmer_final.pdf", // Example: place PDF in 'public/files/' folder
-    gallery: null, // Add multiple image paths here
+    image: "/images/dimmer.png",
+    fileLink: "/files/Dimmer_final.pdf",
+    gallery: ["/images/dimmer.png"],
     github: null,
     live: null
   },
