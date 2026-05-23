@@ -8,6 +8,17 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "Matter & Thread Controller",
+    date: "Apr 2026 - Present",
+    description: "A compact, retrofit-friendly touch dimmer switch built for the modern smart home. Designed as a drop-in replacement for standard switches — no neutral wire, no rewiring required. Onboard Wi-Fi 6 and BLE 5 ensure fast, reliable connectivity with Alexa and Google Home out of the box, while native Matter over Thread support opens the door to third-party platforms like SmartThings without any extra bridges or hubs.",
+    tags: ["Manual touch control", "Wi-Fi 6", "BLE 5", "Matter", "Thread", "Alexa & Google Home", "SmartThings", "Retrofit install" ],
+    image: "/images/dimmer.png", // Example: place 'smps.jpg' in the 'public/images/' folder
+    fileLink: "/files/Dimmer_final.pdf", // Example: place PDF in 'public/files/' folder
+    gallery: null, // Add multiple image paths here
+    github: null,
+    live: null
+  },
+  {
     title: "SMPS (Switching Mode Power Supply)",
     date: "Apr 2026 - Present",
     description: "Designed and developed a custom Switched Mode Power Supply (SMPS) for a client requirement, focused on efficiency, compact size, and stable output for embedded system applications. High-efficiency SMPS design. Compact PCB layout for space-constrained applications. Stable output with low ripple and noise. Overcurrent and short-circuit protection. Optimized thermal performance.",
